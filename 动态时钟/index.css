@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #0e141b;
+    text-align: center;
+    overflow: hidden;
+}
+.column,
+.col{
+    color:#fff;
+    display: inline-block;
+    vertical-align: top;
+    height: 86px;
+    font-size:86px;
+    line-height: 86px;
+    font-weight: 300;
+    transition: all 300ms ease-in;
+
+}
+.column div{
+    height: 86px;
+}
+.col{
+    transform:translateY(50vh);
+
+}
+.visible{
+    opacity: 1;
+}
+.close{
+    opacity: 0;
+}
+.far{
+    opacity: 0;
+}
+.distance{
+    opacity: 0;
+}
